@@ -7,7 +7,7 @@ x1, y1 = int(input()), int(input())
 print('Введите координаты точки B: ')
 x2, y2 = int(input()), int(input())
 print()
-print(f'A({x1, y1}), B({x2, y2})')
+print(f'A{x1, y1}, B{x2, y2}')
 import math
 distans = round(math.sqrt(((x1-x2)**2+(y1-y2)**2)), 2)
 print('Расстояние между точками = ', distans)
